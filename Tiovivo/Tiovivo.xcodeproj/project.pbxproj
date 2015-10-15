@@ -12,6 +12,7 @@
 		D4EE07A61BCFF11F0072A624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EE07A41BCFF11F0072A624 /* Main.storyboard */; };
 		D4EE07A81BCFF11F0072A624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EE07A71BCFF11F0072A624 /* Assets.xcassets */; };
 		D4EE07AB1BCFF11F0072A624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EE07A91BCFF11F0072A624 /* LaunchScreen.storyboard */; };
+		D4EE07B41BCFF1C30072A624 /* Tiovivo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE07B31BCFF1C30072A624 /* Tiovivo.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D4EE07A71BCFF11F0072A624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4EE07AA1BCFF11F0072A624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4EE07AC1BCFF11F0072A624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EE07B31BCFF1C30072A624 /* Tiovivo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiovivo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,8 @@
 		D4EE07941BCFF11F0072A624 = {
 			isa = PBXGroup;
 			children = (
-				D4EE079F1BCFF11F0072A624 /* Tiovivo */,
+				D4EE07B21BCFF1B40072A624 /* Tiovivo */,
+				D4EE079F1BCFF11F0072A624 /* Demo */,
 				D4EE079E1BCFF11F0072A624 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +54,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4EE079F1BCFF11F0072A624 /* Tiovivo */ = {
+		D4EE079F1BCFF11F0072A624 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				D4EE07A01BCFF11F0072A624 /* AppDelegate.swift */,
@@ -61,7 +64,16 @@
 				D4EE07A91BCFF11F0072A624 /* LaunchScreen.storyboard */,
 				D4EE07AC1BCFF11F0072A624 /* Info.plist */,
 			);
+			name = Demo;
 			path = Tiovivo;
+			sourceTree = "<group>";
+		};
+		D4EE07B21BCFF1B40072A624 /* Tiovivo */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE07B31BCFF1C30072A624 /* Tiovivo.swift */,
+			);
+			name = Tiovivo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EE07B41BCFF1C30072A624 /* Tiovivo.swift in Sources */,
 				D4EE07A31BCFF11F0072A624 /* ViewController.swift in Sources */,
 				D4EE07A11BCFF11F0072A624 /* AppDelegate.swift in Sources */,
 			);
