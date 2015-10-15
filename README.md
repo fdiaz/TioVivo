@@ -1,2 +1,2 @@
 # Tiovivo
-Swift Carousel implementation
+Swift Autolayout Carousel demo implementation
